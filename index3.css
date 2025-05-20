@@ -1,0 +1,60 @@
+#mainbox {
+  width: 100vw;
+  height: 200vh;
+  background-color: antiquewhite;
+}
+
+#mainbox .leftside {
+  height: 150vh;
+  width: 24vw;
+  background-color: rgb(48, 79, 48);
+  border: 1px solid black;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding-left: 96px;
+}
+#mainbox .leftside .imgcon img {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+#mainbox .leftside .imgcon h1 {
+  font-size: 35px;
+  color: white;
+}
+
+#mainbox .leftside .imgcon hr {
+  width: 30px;
+}
+
+#mainbox .leftside .detailscon h1 {
+  font-size: 25px;
+  color: white;
+}
+
+#mainbox .leftside .detailscon div {
+  font-size: 21px;
+  line-height: 1.6;
+  color: white;
+}
+
+#mainbox .leftside .skills {
+  margin-top: 67px;
+  color: white;
+}
+
+#mainbox .leftside .skills .line1 {
+  height: 5px;
+  background-color: white;
+  opacity: 0.1;
+}
+
+#mainbox .leftside .skills .line2 {
+  height: 5px;
+  background-color: white;
+}
